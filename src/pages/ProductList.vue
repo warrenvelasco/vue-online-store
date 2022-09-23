@@ -22,7 +22,7 @@
                 </product-items>
             </div>
             <div v-else class="">
-                <p class="text-center">{{ error || "No products found!" }}</p>
+                <p class="text-center">{{ error + " (Something wrong with the api endpoint)" || "No products found!" }}</p>
             </div>
             <!-- <div v-if="searchResult" class="">
                 <p class="text-center">No products found!</p>
